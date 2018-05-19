@@ -1,0 +1,21 @@
+
+"Window":{
+	title: "Repeat",
+	layout: "vertical"
+}
+
+"#table":{
+	top: 30,
+	height:Ti.UI.SIZE
+}
+
+"#everyDay":{
+	top: 30,
+	height:Ti.UI.SIZE
+}
+
+"TableViewRow":{
+	tintColor: Alloy.Globals.tintColor,
+	selectedBackgroundColor: "#d9d9d9",
+	selectedColor: "black"
+}

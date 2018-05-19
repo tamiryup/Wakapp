@@ -1,0 +1,49 @@
+<Alloy>
+	<NavigationWindow id="win" onPostlayout="animateOpen">
+		<Window id="w" title="Add Location">
+			<LeftNavButton>
+				<Button id="cancel" onClick="onCancel">Cancel</Button>
+			</LeftNavButton>
+			<RightNavButton>
+				<Button id="save"></Button>
+			</RightNavButton>
+			<TableView class="table">
+				<TableViewRow id="locationRow" class="row" onClick="openLocation">
+					<Label class="title">Location</Label>
+					<View class="valueContainer">
+						<Label id="location" class="value"></Label>
+						<Label class="icon">&#xf105;</Label>
+					</View>
+				</TableViewRow>
+				<TableViewRow id="nameRow" class="row" onClick="openLabel">
+					<Label class="title">Name</Label>
+					<View class="valueContainer">
+						<Label id="name" class="value"></Label>
+						<Label class="icon">&#xf105;</Label>
+					</View>
+				</TableViewRow>
+			</TableView>
+			<Label class="description">Controls how the alarm will appear on the screen.</Label>
+			<TableView class="table">
+				<TableViewRow id="radiusRow" class="row" onClick="openRadius">
+					<Label class="title">Radius</Label>
+					<View class="valueContainer">
+						<Label id="radius" class="value">0.5 km</Label>
+						<Label class="icon">&#xf105;</Label>
+					</View>
+				</TableViewRow>
+			</TableView>
+			<Label class="description">How far from the location would you like the alarm to go off.</Label>
+			<TableView class="table">
+				<TableViewRow id="soundRow" class="row" onClick="openSound">
+					<Label class="title">Sound</Label>
+					<View class="valueContainer">
+						<Label id="sound" class="value">hi</Label>
+						<Label class="icon">&#xf105;</Label>
+					</View>
+				</TableViewRow>
+			</TableView>
+			<Label class="description">The more irritating the sound is the better the chances are of you waking up.</Label>
+		</Window>
+	</NavigationWindow>
+</Alloy>

@@ -1,0 +1,13 @@
+"#container": {
+	width: 0.5,
+	left:Alloy.Globals.width,
+	height:Alloy.Globals.height,
+	backgroundColor: Alloy.Globals.backgroundColor
+}
+
+
+".line":{
+	height:Alloy.Globals.borderDim,
+	backgroundColor: "rgb(190,190,190)",
+	top: 12
+}

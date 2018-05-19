@@ -1,0 +1,24 @@
+
+"#win": {
+	backgroundColor: "white"
+}
+
+"Window":{
+	backgroundColor: "rgb(236,235,240)",
+	layout: "vertical"
+}
+
+"#cancel":{
+	systemButton:Titanium.UI.iPhone.SystemButton.CANCEL
+}
+
+"#save":{
+	systemButton:Titanium.UI.iPhone.SystemButton.SAVE
+}
+
+".table":{
+	height:Ti.UI.SIZE,
+	top: 40,
+	separatorColor: "#f2f2f2"
+}
+

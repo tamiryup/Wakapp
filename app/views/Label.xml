@@ -1,0 +1,13 @@
+<Alloy>
+	<Window onOpen="focus" id="w" onPostlayout="addListeners">
+		<LeftNavButton>
+			<Button systemButton="Titanium.UI.iPhone.SystemButton.DONE" onClick="end"></Button>
+		</LeftNavButton>
+		<View id="container">
+		<TextField id="field" onChange="limitChars">
+			
+		</TextField>
+		</View>
+		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+	</Window>
+</Alloy>

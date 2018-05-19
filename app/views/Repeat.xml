@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="w" onPostlayout="addListeners">
+		<LeftNavButton>
+			<Button systemButton="Titanium.UI.iPhone.SystemButton.DONE" onClick="end"></Button>
+		</LeftNavButton>
+		<TableView id="everyDay" onClick="speicalCheck">
+			<TableViewRow id="every" title="Every Day"></TableViewRow>>
+		</TableView>
+		<TableView id="table">
+			<TableViewSection>
+				<TableViewRow title="Every Sunday"></TableViewRow>
+				<TableViewRow title="Every Monday"></TableViewRow>
+				<TableViewRow title="Every Tuesday"></TableViewRow>
+				<TableViewRow title="Every Wednesday"></TableViewRow>
+				<TableViewRow title="Every Thursday"></TableViewRow>
+				<TableViewRow title="Every Friday"></TableViewRow>
+				<TableViewRow title="Every Saturday"></TableViewRow>
+			</TableViewSection>
+		</TableView>
+	</Window>
+</Alloy>

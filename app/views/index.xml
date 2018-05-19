@@ -1,0 +1,16 @@
+<Alloy>
+	<TabGroup id="tabs">
+		<Tab id="locationAlarms">
+			<Require id="locationsController"  src="LocationAlarms">
+			</Require>
+		</Tab>
+		<Tab id="powerNaps">
+			<Require id="timersController" src="PowerNaps">
+			</Require>
+		</Tab>
+		<Tab id="timeAlarms">
+			<Require id="alarmsController" src="TimeAlarms">
+			</Require>
+		</Tab>
+	</TabGroup>
+</Alloy>

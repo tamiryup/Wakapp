@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="w" title="Location" onPostlayout="addListeners">
+		<LeftNavButton>
+			<Button id="cancel" onClick="onCancel">Cancel</Button>
+		</LeftNavButton>
+		<RightNavButton>
+			<Button id="save" onClick="onSave"></Button>
+		</RightNavButton>
+		<WebView id="locSearch" url="/WebContent/index.html"></WebView>
+	</Window>
+</Alloy>

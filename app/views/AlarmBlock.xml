@@ -1,0 +1,18 @@
+<Alloy>
+	<View id="container">
+		<View onClick="onCircle" id="circleContainer" bubbleParent="false">
+			<View id="circle" onClick="onCircle" bubbleParent="false">
+				<ImageView width="14" height="14" id="cross"></ImageView>
+			</View>
+		</View>
+		<Label id="label"></Label>
+		<!--<View id="text">-->
+		<Label id="time"></Label>
+		<Label id="repeat"></Label>
+		<!--</View>-->
+		<Label id="arrow">&#xf105;</Label>
+		<ImageView class="locIcon" id="locationIcon" image="location_icon.png"></ImageView>
+		<ImageView class="locIcon" id="blackLocationIcon" image="black_location_icon.png"></ImageView>
+		<View id="borderBottom"></View>
+	</View>
+</Alloy>

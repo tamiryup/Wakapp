@@ -1,0 +1,16 @@
+
+"Window":{
+}
+
+"#cancel":{
+	systemButton:Titanium.UI.iPhone.SystemButton.CANCEL
+}
+
+"#save":{
+	systemButton:Titanium.UI.iPhone.SystemButton.SAVE
+}
+
+"#locSearch":{
+	height: "98%",
+	top: 0
+}

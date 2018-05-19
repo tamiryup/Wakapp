@@ -1,0 +1,78 @@
+
+"Window":{
+	barColor: Alloy.Globals.edgesColor,//rgb(238,238,243)
+	//backgroundColor: Alloy.Globals.backgroundColor,
+	backgroundColor: "rgb(241,239,242)",
+	navTintColor: Alloy.Globals.tintColor
+}
+
+/*
+* table preferences
+*/
+
+".table":{
+	height:Ti.UI.SIZE,
+	top: 40,
+	separatorColor: "rgb(226,224,226)"
+}
+
+".row":{
+	height: 40,
+	selectedBackgroundColor: "#d9d9d9"
+}
+
+".title":{
+	left: 15,
+	height: 40,
+	color: "rgb(49,47,50)",
+	font:{
+		fontFamily: "helvetica",
+		fontSize: 17
+	},
+	selectedBackgroundColor: "white"
+}
+
+".valueContainer":{
+	right: 15,
+	height: 40,
+	layout: "horizontal",
+	width:Ti.UI.SIZE
+}
+
+".icon":{
+	height: 40,
+	right: 0,
+	color: "rgb(180, 180, 180)",
+	font:{
+		fontFamily: "fontAwesome",
+		fontSize: 25
+	}
+}
+
+".value":{
+	height: 40,
+	color: "rgb(166, 166, 166)",
+	right: 7,
+	font:{
+		fontFamily: "helvetica",
+		fontSize: 16
+	}
+}
+
+".switch":{
+	top: 5,
+	height: 30
+}
+
+".description": {
+	top: 8,
+	color: "rgb(128,128,128)",
+	width: "90%",
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	font:{
+		fontFamily: "arial",
+		fontSize: 15
+	}
+}
+
+//end of table preferences.

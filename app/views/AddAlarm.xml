@@ -1,0 +1,56 @@
+<Alloy>
+	<NavigationWindow id="win" onPostlayout="animateOpen">
+		<Window id="w" title="Add Alarm" layout="vertical">
+			<LeftNavButton>
+				<Button id="cancel" onClick="onCancel">Cancel</Button>
+			</LeftNavButton>
+			<RightNavButton>
+				<Button id="save"></Button>
+			</RightNavButton>
+			<Picker id="pick"></Picker>
+			<TableView class="table" id="table">
+				<TableViewRow class="row" id="labelRow" onClick="openLabel">
+					<Label class="title">Label</Label>
+					<View class="valueContainer">
+						<Label id="label" class="value">Alarm</Label>
+						<Label class="icon">&#xf105;</Label>
+					</View>
+				</TableViewRow>
+				<TableViewRow class="row" id="repeatRow" onClick="openRepeat">
+					<Label class="title">Repeat</Label>
+					<View class="valueContainer">
+						<Label id="repeat" class="value">Never</Label>
+						<Label class="icon">&#xf105;</Label>
+					</View>
+				</TableViewRow>
+				<TableViewRow class="row" platform="android">
+					<Label class="title">Vibration</Label>
+					<View class="valueContainer">
+						<Label class="value"></Label>
+						<Label class="icon">&#xf105;</Label>
+					</View>
+				</TableViewRow>
+				<TableViewRow class="row" id="soundRow" onClick="openSound">
+					<Label class="title">Sound</Label>
+					<View class="valueContainer">
+						<Label class="value" id="sound"></Label>
+						<Label class="icon">&#xf105;</Label>
+					</View>
+				</TableViewRow>
+				<TableViewRow class="row" id="snoozeRow" onClick="openSnooze">
+					<Label class="title">Snooze</Label>
+					<View class="valueContainer">
+						<Label id="snooze" class="value">5 min</Label>
+						<Label class="icon">&#xf105;</Label>
+					</View>
+				</TableViewRow>
+				<TableViewRow class="row" platform="ios">
+					<Label class="title">Vibration</Label>
+					<View class="valueContainer">
+						<Switch id="s" class="switch" onChange="onChange"></Switch>
+					</View>
+				</TableViewRow>
+			</TableView>
+		</Window>
+	</NavigationWindow>
+</Alloy>

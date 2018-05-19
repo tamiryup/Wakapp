@@ -1,0 +1,20 @@
+
+"#win": {
+	backgroundColor: "white"
+}
+
+"Window":{
+}
+
+"#cancel":{
+	systemButton:Titanium.UI.iPhone.SystemButton.CANCEL
+}
+
+"#save":{
+	systemButton:Titanium.UI.iPhone.SystemButton.SAVE
+}
+
+"#pick":{
+	type:Titanium.UI.PICKER_TYPE_COUNT_DOWN_TIMER,
+	width:Titanium.UI.FILL
+}

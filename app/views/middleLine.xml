@@ -1,0 +1,11 @@
+<Alloy>
+	<View id="container" layout="horizontal">
+		<!--<View id="left" class="side">
+			<View class="line"></View>
+		</View>
+		<View id="right" class="side">
+			<View class="line"></View>
+		</View>-->
+		<View class="line"></View>
+	</View>
+</Alloy>

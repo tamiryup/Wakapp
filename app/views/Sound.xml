@@ -1,0 +1,108 @@
+<Alloy>
+	<Window layout="vertical" id="w" onPostlayout="addListeners">
+		<LeftNavButton>
+			<Button id="leftNav" onClick="cancel">
+				Back
+			</Button>
+		</LeftNavButton>
+		<RightNavButton>
+			<Button id="rightNav" onClick="end">
+			</Button>>
+		</RightNavButton>
+		<ScrollView layout="vertical">
+			<TableView id="shuffleTable" class="table">
+				<TableViewRow class="row" platform="ios">
+					<Label class="title">
+						Shuffle
+					</Label>
+					<Switch id="s" value="false" onChange="onShuffle" class="switch">
+					</Switch>
+				</TableViewRow>
+			</TableView>
+			<Label id="explainShuffle" class="description">
+				Shuffle lets you pick multiple sounds and wake up with a different tone each time.
+			</Label>
+			<TableView id="songs" class="table">
+				<TableViewRow id="pickSong" onClick="selectMusic" bubbleParent="false">
+					<Label class="title">
+						Pick Songs
+					</Label>
+					<View class="valueContainer">
+						<Label id="choosenSong" class="value">
+						</Label>
+						<Label class="icon">
+							&#xf105;
+						</Label>
+					</View>
+				</TableViewRow>
+			</TableView>
+			<Label id="tonesTitle" class="description">
+				Tones
+			</Label>
+			<TableView id="tones" onClick="chooseTone" top="5" class="table">
+				<TableViewSection>
+					<TableViewRow title="Apex">
+					</TableViewRow>
+					<TableViewRow title="Beacon">
+					</TableViewRow>
+					<TableViewRow title="Bulletin">
+					</TableViewRow>
+					<TableViewRow title="By The Seaside">
+					</TableViewRow>
+					<TableViewRow title="Chimes">
+					</TableViewRow>
+					<TableViewRow title="Circuit">
+					</TableViewRow>
+					<TableViewRow title="Constellation">
+					</TableViewRow>
+					<TableViewRow title="Cosmic">
+					</TableViewRow>
+					<TableViewRow title="Crystals">
+					</TableViewRow>
+					<TableViewRow title="Illuminate">
+					</TableViewRow>
+					<TableViewRow title="Night Owl">
+					</TableViewRow>
+					<TableViewRow title="Opening">
+					</TableViewRow>
+					<TableViewRow title="Playtime">
+					</TableViewRow>
+					<TableViewRow title="Presto">
+					</TableViewRow>
+					<TableViewRow title="Radar">
+					</TableViewRow>
+					<TableViewRow title="Radiate">
+					</TableViewRow>
+					<TableViewRow title="Ripples">
+					</TableViewRow>
+					<TableViewRow title="Sencha">
+					</TableViewRow>
+					<TableViewRow title="Signal">
+					</TableViewRow>
+					<TableViewRow title="Silk">
+					</TableViewRow>
+					<TableViewRow title="Slow Rise">
+					</TableViewRow>
+					<TableViewRow title="Stargaze">
+					</TableViewRow>
+					<TableViewRow title="Summit">
+					</TableViewRow>
+					<TableViewRow title="Twinkle">
+					</TableViewRow>
+					<TableViewRow title="Uplift">
+					</TableViewRow>
+					<TableViewRow title="Waves">
+					</TableViewRow>
+				</TableViewSection>
+			</TableView>
+			<TableView id="noneTable" class="table" bottom="40" onClick="onNone">
+				<TableViewSection>
+					<TableViewRow id="none" title="None">
+					</TableViewRow>
+				</TableViewSection>
+			</TableView>
+			<View height="30">
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

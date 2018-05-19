@@ -1,0 +1,19 @@
+
+"Window":{
+	title: "Label"
+}
+
+"#container":{
+	width: "100%",
+	height: 35,
+	backgroundColor: "white",
+}
+
+"#field": {
+	width: "95%",
+	height: 35,
+	backgroundColor: "white",
+	left: 10,
+	clearButtonMode:Titanium.UI.INPUT_BUTTONMODE_ALWAYS,
+	tintColor: Alloy.Globals.tintColor,
+}

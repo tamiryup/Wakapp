@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Map</title>
+		<link rel="stylesheet" href="index.css">
+		<meta name="viewport" content="initial-scale=1.0">
+		<meta charset="UTF-8">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+	</head>
+	<body>
+		<div id="map"></div>
+		<div id="inputContainer">
+			<input type="text" id="textField" title="search" placeholder="Search">
+			<img id="deleteButton" src="cross.png">
+		</div>
+
+		<script src="index.js"></script>
+		<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_bd3jzlHJbrRUEliC5d8GZ-ktytKmocs&libraries=places&callback=main"
+		async defer></script>
+	</body>
+</html>

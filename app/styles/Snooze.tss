@@ -1,0 +1,14 @@
+
+"#w":{
+}
+
+"#table":{
+	top:50,
+	height:Ti.UI.SIZE,
+}
+
+"TableViewRow":{
+	tintColor: Alloy.Globals.tintColor,
+	selectedBackgroundColor:"#d9d9d9",
+	selectedColor:"black"
+}

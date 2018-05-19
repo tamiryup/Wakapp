@@ -1,0 +1,90 @@
+
+"#container": {
+	width:Alloy.Globals.width,
+	height:Alloy.Globals.height,
+	backgroundColor: Alloy.Globals.backgroundColor,
+	borderWidth: 1,
+	borderColor: "transparent"
+}
+
+"#borderBottom": {
+	height: 0.5,
+	width:Alloy.Globals.borderDim,
+	backgroundColor: "rgb(190,190,190)",
+	bottom: 0,
+	right: 12
+}
+
+"#time":{
+	color: Alloy.Globals.fontColor,
+	font:{
+		fontFamily: "HelveticaNeue-Thin",
+		fontSize: 50
+	}
+}
+
+"#repeat":{
+	bottom: 20,
+	color: Alloy.Globals.fontColor,
+	font:{
+		fontFamily: "AppleSDGothicNeo-Medium",
+		fontSize: 12.5
+	}
+}
+
+"#label":{
+	bottom:20,
+	color: Alloy.Globals.fontColor,
+	font:{
+		fontFamily: "helvetica",
+		fontSize: 15
+	},
+	width: "90%",
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#circleContainer":{
+	visible: false,
+	width: 45,
+	height: 45,
+	left: 0,
+	top: 0
+}
+
+"#circle":{
+	width: 18,
+	height: 18,
+	borderWidth: 0.5,
+	borderRadius: 9,
+	borderColor: "rgb(153, 153, 153)",
+	top: 10,
+	left: 7,
+	visible: false,
+	opacity: 0
+}
+
+"#arrow":{
+	color: "rgb(170, 170, 170)",
+	font:{
+		fontFamily: "fontAwesome",
+		fontSize: 20
+	},
+	bottom: 7.5,
+	right: 10,
+	visible: false,
+	opacity: 0
+}
+
+"#locationIcon":{
+	visible: false,
+	left: 0,
+	height: 40,
+	width: 40
+}
+
+".locIcon":{
+	visible: false,
+	left: 0,
+	height: 40,
+	width: 40
+}

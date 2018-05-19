@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="w" title="Snooze" layout="vertical" onPostlayout="addListeners">
+		<LeftNavButton>
+			<Button systemButton="Titanium.UI.iPhone.SystemButton.DONE" onClick="end"></Button>
+		</LeftNavButton>
+		<Picker id="pick">
+		</Picker>
+		<TableView id="table" onClick="check">
+			<TableViewRow title="None" id="none"></TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

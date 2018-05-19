@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="win" layout="vertical" >
+		<RightNavButton>
+			<Button id="plus"></Button>
+		</RightNavButton>
+		<LeftNavButton>
+			<Button id="edit"></Button>
+		</LeftNavButton>
+		<ScrollView id="scroll"></ScrollView>
+		<Widget id="fontawesome" src="com.mattmcfarland.fontawesome" />
+	</Window>
+</Alloy>

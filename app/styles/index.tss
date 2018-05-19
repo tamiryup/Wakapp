@@ -1,0 +1,36 @@
+
+"TabGroup":{
+	tabsBackgroundColor: Alloy.Globals.edgesColor,
+	tabsTintColor:Alloy.Globals.tintColor,
+	activeTabIconTint: Alloy.Globals.tintColor,
+}
+
+"Tab":{
+	
+	activeTitleColor:Alloy.Globals.tintColor,
+	
+	/*iconInsets: {
+	top: 5,
+	bottom: -5,
+	right: 0,
+	left: 0
+	}*/
+}
+
+"#locationAlarms":{
+	icon: "destination2.png",
+	activeIcon:"locIconActive.png",
+	title: "Location"
+}
+
+"#powerNaps":{
+	icon: "timer2.png",
+	activeIcon:"timerActive.png",
+	title: "Timer"
+}
+
+"#timeAlarms":{
+	icon: "alarm2.png",
+	activeIcon:"alarmActive.png",
+	title: "Alarm"
+}

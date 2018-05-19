@@ -1,0 +1,19 @@
+
+"Window":{
+	backgroundColor: Alloy.Globals.backgroundColor,
+	title: 'Alarm'
+}
+
+"#plus":{
+	systemButton: Titanium.UI.iPhone.SystemButton.ADD
+}
+
+"#edit":{
+	systemButton: Titanium.UI.iPhone.SystemButton.EDIT
+}
+
+"#scroll":{
+	showVerticalScrollIndicator: true
+}
+
+

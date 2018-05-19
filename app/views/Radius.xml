@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="w" title="Radius" layout="vertical" onPostlayout="addListeners">
+		<LeftNavButton>
+			<Button systemButton="Titanium.UI.iPhone.SystemButton.DONE" onClick="end"></Button>
+		</LeftNavButton>
+		<Picker id="pick"></Picker>
+	</Window>
+</Alloy>
